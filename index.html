@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>润云文档</title>
@@ -8,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
@@ -21,21 +23,21 @@
       notFoundPage: true,
       search: {
         paths: 'auto',
-        placeholder: '输入以搜索',
+        placeholder: '键入以搜索',
         depth: 6,
         hideOtherSidebarContent: true
       },
       plugins: [
-        function(hook) {
+        function (hook) {
           var footer = [
             '<hr/>',
             '<footer>',
             '<span><a href="https://runyun.cc">氧化科创 润云数据</a></span>',
-            '<span> 使用 <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a> 呈现文档中心。</span>',
+            '<span> 使用 <a href="https://github.com/docsifyjs/docsify" target="_blank">Docsify</a> 呈现文档中心。</span>',
             '</footer>'
           ].join('');
 
-          hook.afterEach(function(html) {
+          hook.afterEach(function (html) {
             return html + footer;
           });
         }
@@ -47,4 +49,5 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 </body>
+
 </html>

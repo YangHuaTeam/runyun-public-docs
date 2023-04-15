@@ -6,6 +6,7 @@
 * 虚拟主机
 
   * [Bthost 虚拟主机](/bthost-vhost/index.md)
+  * [EasyPanel 虚拟主机](/easypanel-vhost/index.md)
 
 * 容器云
 
